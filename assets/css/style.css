@@ -5860,25 +5860,37 @@ a.wp-block-button__link {
 	}
 }
 
-@media screen and (max-width : 767px) {
-	.section.hero-started .content {
-		padding-top: 20px !important;
-	}
-	
 
-}
 @media screen and (max-width : 1024px) {
 	.section.hero-started .content {
 		padding-top: 20px !important;
 	}
+
 	.section.hero-started .slide {
-        margin-left: -340px;
-        bottom: auto;
-        top: 600px !important;
-        right: auto;
-        left: 50%;
-        transform: scale(0.9);
-        transform-origin: top center;
-    }
+		margin-left: -340px;
+		bottom: auto;
+		top: 600px !important;
+		right: auto;
+		left: 50%;
+		transform: scale(0.9);
+		transform-origin: top center;
+	}
+
+}
+
+@media screen and (max-width : 767px) {
+	.section.hero-started .content {
+		padding-top: 20px !important;
+	}
+
+	.section.hero-started .slide {
+		margin-left: -340px;
+		bottom: auto;
+		top: 600px !important;
+		right: auto;
+		left: 50%;
+		transform: scale(0.5);
+		transform-origin: top center;
+	}
 
 }
